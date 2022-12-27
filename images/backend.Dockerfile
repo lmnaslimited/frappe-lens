@@ -8,6 +8,6 @@ COPY repos ../apps
 USER root
 
 RUN install-app hrms && \
-    install-app desk
+    install-app frappedesk
 
 USER frappe
